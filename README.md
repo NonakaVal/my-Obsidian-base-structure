@@ -1,10 +1,10 @@
-# Visão geral
------------
-Estrutura base para um vault Obsidian com templates, snippets, bases de notas e scripts auxiliares. Projetado para servir como esqueleto reutilizável para organização pessoal, Zettelkasten, gestão de projetos e automações (scripts Python).
+# Overview
 
-Esta pasta já contém uma configuração .obsidian pronta (plugins, snippets, temas) e coleções de templates / CSS / scripts que aceleram a criação de novos vaults.
+Base structure for an Obsidian vault containing templates, snippets, note bases, and auxiliary scripts. Designed as a reusable skeleton for personal organization, Zettelkasten, project management, and automations (Python scripts).
 
-## 📁 Estrutura
+This folder already includes a ready-to-use `.obsidian` configuration (plugins, snippets, themes) plus collections of templates / CSS / scripts to speed up the creation of new vaults.
+
+## Folder Structure
 
 ```
 .obsidian  
@@ -16,43 +16,47 @@ Esta pasta já contém uma configuração .obsidian pronta (plugins, snippets, t
 
 X  
 │  
-└── Coleções adicionais, assets e consultas Dataview (opcional)  
+└── Additional collections, assets, and optional Dataview queries  
 
 	Assets  
 	│  
 	├── Hotkeys  
 	├── Dataview Collections  
 	├── CSS Snippets  
-	└── Outros assets  
+	└── Other assets  
 	
 	Templates  
 	│  
-	├── Format — estruturas e moldes de formatação  
-	└── Snippet — pequenos blocos reutilizáveis  
+	├── Format — formatting structures and molds  
+	└── Snippet — small reusable blocks  
 	
 	Bases  
 	│  
-	└── Arquivos .base usados como ponto inicial para notas e boards  
+	└── .base files used as starting points for notes and boards  
 	
 	Scripts  
 	│  
-	├── processamento_audio — transcrição e processamento de áudio  
-	├── ferramentas_diversas — conversões e utilidades (ipynb → md, EPUB, etc.)  
-	└── organizacao_obsidian — scripts para manipular o vault  	
-
+	├── processamento_audio — audio transcription and processing  
+	├── ferramentas_diversas — conversions and utilities (ipynb → md, EPUB, etc.)  
+	└── organizacao_obsidian — scripts for vault manipulation  
 ```
 
+## Common Issue Fixes
 
-Soluções de problemas comuns
-----------------------------
-- Plugins não aparecem: mover a pasta `.obsidian` para o diretório do vault e reiniciar o Obsidian.
-- CSS snippets não aplicam: Settings → Appearance → CSS snippets → ativar o snippet desejado.
-- Templater não executa: confirmar caminho de Templates nas configurações do plugin.
+- Plugins not showing: move the `.obsidian` folder into the vault directory and restart Obsidian.
+    
+- CSS snippets not applying: Settings → Appearance → CSS snippets → enable the desired snippet.
+    
+- Templater not running: confirm the Templates folder path in the plugin settings.
+    
 
-Arquivos/recursos importantes 
------------------------------
-- .obsidian/ — configurações e plugins instalados.
-- Templates/Format/_ base template.md — template base para novas notas.
-- Scripts/organizacao_obsidian/ChanGe-Templates-Folder.py — script para reorganizar templates (ler antes de executar).
-- Assets/Dataview/ — consultas e painéis prontos para usar com Dataview.
+## Key Files / Resources
 
+- `.obsidian/` — configuration and installed plugins.
+    
+- `Templates/Format/_ base template.md` — base template for new notes.
+    
+- `Scripts/organizacao_obsidian/ChanGe-Templates-Folder.py` — script to reorganize templates (read before running).
+    
+- `Assets/Dataview/` — ready-to-use queries and dashboards for Dataview.
+    
